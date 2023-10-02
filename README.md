@@ -39,6 +39,6 @@ cd job-ui
  flutter pub get
 ```
 5. **Run the App**:
-   ```bash
+ ```bash
  flutter run
 ```  
