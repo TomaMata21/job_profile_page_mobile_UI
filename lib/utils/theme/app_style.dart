@@ -15,69 +15,119 @@ class AppStyle {
 class AppText {
   late final headlineLarge = TextStyle(
     fontSize: 30.sp,
-    fontWeight: FontWeight.bold,
-    fontFamily: "Poppins",
-    color: $styles.colors.black,
-  );
-
-  late final headlineSmall = TextStyle(
-    fontSize: 22.sp,
-    fontWeight: FontWeight.bold,
-    fontFamily: "Poppins",
-    color: $styles.colors.black,
-  );
-
-  late final bodySmall = TextStyle(
-    fontSize: 11.sp,
     fontWeight: FontWeight.w400,
     fontFamily: "Poppins",
     color: $styles.colors.black,
   );
-
   late final bodyMedium = TextStyle(
-    fontSize: 13.sp,
-    fontWeight: FontWeight.bold,
-    fontFamily: "Poppins",
     color: $styles.colors.black,
+    fontSize: 14.sp,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w400,
+    height: 0,
   );
-
-  late final bodyLarge = TextStyle(
-    fontSize: 18.sp,
-    fontWeight: FontWeight.w500,
-    fontFamily: "Poppins",
+  late final headlineMedium = TextStyle(
     color: $styles.colors.black,
+    fontSize: 24.sp,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w600,
+    height: 0,
+  );
+  late final bodySmall = TextStyle(
+    color: $styles.colors.black,
+    fontSize: 10.sp,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w400,
+    height: 0,
+  );
+  late final titleSmall = TextStyle(
+    color: $styles.colors.black,
+    fontSize: 14.sp,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w500,
+    height: 0,
+  );
+  late final numStyle = TextStyle(
+    color: $styles.colors.white,
+    fontSize: 65.sp,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w400,
+    height: 0,
+  );
+  late final labelSmall = TextStyle(
+    color: $styles.colors.white,
+    fontSize: 11,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w400,
+    height: 0,
+  );
+  late final labelSmallBold = TextStyle(
+    color: $styles.colors.black,
+    fontSize: 11,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w500,
+    height: 0,
+  );
+  late final bodyLarge = TextStyle(
+    color: $styles.colors.black,
+    fontSize: 16,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w400,
+    height: 0,
+  );
+  late final bodyLargeBold = TextStyle(
+    color: $styles.colors.black,
+    fontSize: 16,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w400,
+    height: 0,
+  );
+  late final titleMedium = TextStyle(
+    color: $styles.colors.black,
+    fontSize: 20,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w400,
+    height: 0,
+  );
+  late final titleMediumBold = TextStyle(
+    color: $styles.colors.black,
+    fontSize: 20,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w400,
+    height: 0,
+  );
+  late final numStyleMedium = TextStyle(
+    color: $styles.colors.primary,
+    fontSize: 19,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w600,
+    height: 0,
   );
 
   late final labelLarge = TextStyle(
-    fontSize: 14.sp,
-    fontWeight: FontWeight.w500,
-    fontFamily: "Poppins",
-    color: $styles.colors.black,
+    color: $styles.colors.white,
+    fontSize: 15,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w600,
+    height: 0,
   );
-
-  late final subtitleSmall = TextStyle(
-    fontSize: 11.sp,
-    fontWeight: FontWeight.w400,
-    fontFamily: "Poppins",
-    color: $styles.colors.grey,
+  late final houseText = TextStyle(
+    color: $styles.colors.black,
+    fontSize: 13,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w500,
+    height: 0,
   );
 }
 
 @immutable
 class AppColors {
-  late final purple = const Color(0xFF8688BC);
-  late final blue = const Color(0xFF7AA0DA);
-  late final red = const Color(0xFFEB7777);
-  late final grey = const Color(0xFFBBBBBB);
-  late final lightGrey = const Color(0xFFF3F3F3);
-  late final buttonGrey = const Color(0xFFB5B5B5);
-  late final black = const Color(0xFF424347);
-  late final deepBlack = const Color(0xFF3E3E3E);
   late final white = const Color(0xFFFFFFFF);
-  late final iconGrey = const Color(0xFF979797);
-  late final inactiveGrey = const Color(0xFFD8D8D8);
-  late final activeGrey = const Color(0xFF989898);
-  late final green = const Color(0xFF9FC78A);
+  late final primary = const Color(0xFFEF4637);
+  late final primaryText = const Color(0xFFDF3222);
+  late final lightPrimary = const Color(0xFFFDEDEB);
+  late final black = const Color(0xFF1A1A1A);
+  late final switchButtonColor = const Color(0xFF412420);
 }
 
 @immutable
