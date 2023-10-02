@@ -28,11 +28,11 @@ by [Itunu Oluwa ](https://www.figma.com/@thisisaltgian) on Figma
 1. **Prerequisites**: Ensure you have Flutter installed on your system.
 2. **Clone this Repository**:
  ```bash
-git clone https://github.com/your-username/figma-ui-clone-flutter.git
+git clone https://github.com/TomaMata21/job_profile_page_mobile_UI.git
 ```
 3. **Navigate to the Directory**:
   ```bash
-cd job-ui
+cd job_profile_page_mobile_UI.git
 ```  
 4. **Install dependencies**:
   ```bash
