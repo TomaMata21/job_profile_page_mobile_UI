@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
 import 'package:sizer/sizer.dart';
@@ -59,7 +60,10 @@ class ProfileScreen extends StatelessWidget {
                 Gap($styles.insets.ss),
                 const MasterCard(),
               ],
-            ),
+            ).animate().slideX(
+                  curve: Curves.fastOutSlowIn,
+                  duration: const Duration(milliseconds: 1500),
+                ),
             Gap($styles.insets.m),
             Expanded(
               child: Stack(
@@ -113,6 +117,8 @@ class ProfileScreen extends StatelessWidget {
                                   ),
                                 )
                               ],
+                            ).animate().fade(
+                              curve: Curves.fastOutSlowIn,
                             ),
                           ),
                           Gap($styles.insets.xs),
@@ -137,7 +143,7 @@ class ProfileScreen extends StatelessWidget {
                           ),
                           Gap($styles.insets.xs),
                           ...services.map(
-                            (e) => ServiceItem(service: e) ,
+                            (e) => ServiceItem(service: e),
                           ),
                         ],
                       ),

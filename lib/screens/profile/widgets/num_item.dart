@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 
 import '../../../utils/theme/app_style.dart';
 
@@ -23,6 +24,9 @@ class NumItem extends StatelessWidget {
           style: $styles.text.labelSmall,
         ),
       ],
-    );
+    ).animate().fade(
+          delay: const Duration(milliseconds: 400),
+          duration: const Duration(milliseconds: 1800),
+        );
   }
 }

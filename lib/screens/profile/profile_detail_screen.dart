@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:gap/gap.dart';
 import 'package:sizer/sizer.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -39,7 +40,7 @@ class _ProfileDetailScreenState extends State<ProfileDetailScreen> {
                 color: $styles.colors.lightPrimary,
               ),
             ),
-          ),
+          ).animate().fade(),
           Positioned(
             top: 5.h,
             left: 0,
@@ -124,7 +125,10 @@ class _ProfileDetailScreenState extends State<ProfileDetailScreen> {
                           }),
                         ),
                       ],
-                    ),
+                    ).animate().fadeIn(
+                          duration: const Duration(milliseconds: 1500),
+                          curve: Curves.fastOutSlowIn,
+                        ),
                   ),
                 ),
               ],
@@ -232,7 +236,11 @@ class _ProfileDetailScreenState extends State<ProfileDetailScreen> {
                   ),
                 ],
               ),
-            ),
+            ).animate().slideX(
+                  duration: const Duration(milliseconds: 800),
+                  curve: Curves.fastOutSlowIn,
+                  delay: const Duration(milliseconds: 400),
+                ),
           ),
         ],
       ),
