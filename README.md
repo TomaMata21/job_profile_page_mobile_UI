@@ -12,7 +12,7 @@ Insert gif or link to demo
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/TomaMata21/job_profile_page_mobile_UI/blob/main/screenshots/profile_details.jpg?raw=true)
 
 
 ## Original Design
