@@ -1,4 +1,6 @@
+
 import '../../models/service.dart';
+import '../../models/statistics.dart';
 import '../../models/user.dart';
 import '../../models/wallet.dart';
 import 'assets.dart';
@@ -25,3 +27,4 @@ final services = [
 
 final user = User(profession: "House Manager");
 final wallet = Wallet();
+final statistics = Statistics();

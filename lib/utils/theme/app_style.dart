@@ -28,7 +28,7 @@ class AppText {
   );
   late final headlineMedium = TextStyle(
     color: $styles.colors.black,
-    fontSize: 24.sp,
+    fontSize: 20.sp,
     fontFamily: 'Poppins',
     fontWeight: FontWeight.w600,
     height: 0,
@@ -101,6 +101,13 @@ class AppText {
     fontSize: 19.sp,
     fontFamily: 'Poppins',
     fontWeight: FontWeight.w600,
+    height: 0,
+  );
+  late final numStyleLight = TextStyle(
+    color: $styles.colors.primary,
+    fontSize: 20.sp,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w400,
     height: 0,
   );
 

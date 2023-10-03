@@ -5,6 +5,7 @@ import 'package:sizer/sizer.dart';
 import '../../../utils/constants/assets.dart';
 import '../../../utils/constants/data.dart';
 import '../../../utils/theme/app_style.dart';
+import '../profile_detail_screen.dart';
 
 class UserProfile extends StatelessWidget {
   const UserProfile({super.key});
@@ -12,7 +13,14 @@ class UserProfile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {},
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const ProfileDetailScreen(),
+          ),
+        );
+      },
       child: Padding(
         padding: EdgeInsets.symmetric(
             vertical: $styles.insets.xs, horizontal: $styles.insets.s),
