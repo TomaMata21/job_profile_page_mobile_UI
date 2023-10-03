@@ -7,7 +7,7 @@ Welcome to  Job app UI clone project, an elegant and interactive Flutter interfa
 
 ## Demo
 
-Insert gif or link to demo
+![Demo](https://github.com/TomaMata21/job_profile_page_mobile_UI/blob/main/demo/Job-Ui.gif?raw=true)
 
 
 ## Screenshots
