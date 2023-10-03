@@ -18,4 +18,7 @@ class LocalString {
   static const String houses = "Houses";
   static const String services = "Services";
   static const String all = "All";
+  static const String totalService = "Total Service";
+  static const String masterCard = "Master Card";
+  static const String addWorkers = "Add Workers";
 }

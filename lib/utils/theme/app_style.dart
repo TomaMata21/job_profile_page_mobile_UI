@@ -63,7 +63,7 @@ class AppText {
   );
   late final labelSmallBold = TextStyle(
     color: $styles.colors.black,
-    fontSize: 11,
+    fontSize: 11.sp,
     fontFamily: 'Poppins',
     fontWeight: FontWeight.w500,
     height: 0,
@@ -77,9 +77,9 @@ class AppText {
   );
   late final bodyLargeBold = TextStyle(
     color: $styles.colors.black,
-    fontSize: 16,
+    fontSize: 16.sp,
     fontFamily: 'Poppins',
-    fontWeight: FontWeight.w400,
+    fontWeight: FontWeight.w500,
     height: 0,
   );
   late final titleMedium = TextStyle(
@@ -91,14 +91,14 @@ class AppText {
   );
   late final titleMediumBold = TextStyle(
     color: $styles.colors.black,
-    fontSize: 20,
+    fontSize: 20.sp,
     fontFamily: 'Poppins',
-    fontWeight: FontWeight.w400,
+    fontWeight: FontWeight.w500,
     height: 0,
   );
   late final numStyleMedium = TextStyle(
     color: $styles.colors.primary,
-    fontSize: 19,
+    fontSize: 19.sp,
     fontFamily: 'Poppins',
     fontWeight: FontWeight.w600,
     height: 0,
