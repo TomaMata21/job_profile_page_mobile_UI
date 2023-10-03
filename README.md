@@ -8,7 +8,7 @@ Welcome to  Job app UI clone project, an elegant and interactive Flutter interfa
 ## Demo
 
 [//]: # (![Demo]&#40;https://github.com/TomaMata21/job_profile_page_mobile_UI/blob/main/demo/Job-Ui.gif?raw=true&#41;)
-<img src="https://github.com/TomaMata21/job_profile_page_mobile_UI/blob/main/demo/Job-Ui.gif?raw=true'image" alt="Demo" height="600">
+<img src="https://github.com/TomaMata21/job_profile_page_mobile_UI/blob/main/demo/Job-Ui.gif?raw=true'image" alt="Demo" height="500">
 
 
 
