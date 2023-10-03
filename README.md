@@ -13,13 +13,10 @@ Welcome to  Job app UI clone project, an elegant and interactive Flutter interfa
 
 ## Screenshots
 
-[//]: # (![Profile]&#40;https://github.com/TomaMata21/job_profile_page_mobile_UI/blob/main/screenshots/profilee.jpg?raw=true&#41;)
 <img src="https://github.com/TomaMata21/job_profile_page_mobile_UI/blob/main/screenshots/profilee.jpg?raw=true" alt="Profile" height="500">
 
-[//]: # (![Profile details]&#40;https://github.com/TomaMata21/job_profile_page_mobile_UI/blob/main/screenshots/profile_details.jpg?raw=true&#41;)
 <img src="https://github.com/TomaMata21/job_profile_page_mobile_UI/blob/main/screenshots/profile_details.jpg?raw=true" alt="Profile Details" height="500">
 
-[//]: # (![Profile details 2]&#40;https://github.com/TomaMata21/job_profile_page_mobile_UI/blob/main/screenshots/profile_details2.jpg?raw=true&#41;)
 <img src="https://github.com/TomaMata21/job_profile_page_mobile_UI/blob/main/screenshots/profile_details2.jpg?raw=true" alt="Profile Details 2" height="500">
 
 
