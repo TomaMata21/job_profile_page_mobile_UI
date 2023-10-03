@@ -14,6 +14,7 @@ Insert gif or link to demo
 
 ![Profile](https://github.com/TomaMata21/job_profile_page_mobile_UI/blob/main/screenshots/profilee.jpg?raw=true)
 ![Profile details](https://github.com/TomaMata21/job_profile_page_mobile_UI/blob/main/screenshots/profile_details.jpg?raw=true)
+![Profile details 2](https://github.com/TomaMata21/job_profile_page_mobile_UI/blob/main/screenshots/profile_details2.jpg?raw=true)
 
 
 ## Original Design
