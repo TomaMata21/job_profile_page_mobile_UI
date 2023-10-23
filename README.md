@@ -37,7 +37,7 @@ git clone https://github.com/TomaMata21/job_profile_page_mobile_UI.git
 ```
 3. **Navigate to the Directory**:
   ```bash
-cd job_profile_page_mobile_UI.git
+cd job_profile_page_mobile_UI
 ```  
 4. **Install dependencies**:
   ```bash
